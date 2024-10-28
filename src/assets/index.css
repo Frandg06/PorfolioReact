@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scroll {
+  opacity: 0;
+  -webkit-animation-animation: enhance-header linear both;
+  animation: enhance-header linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0px 300px;
+}
+@keyframes enhance-header {
+  to {
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999;
+  }
+}
