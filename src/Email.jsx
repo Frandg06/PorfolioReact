@@ -1,6 +1,10 @@
 import { EmailIcon } from "./EmailIcon";
+import { sendEmail } from "./emails/sendEmail";
 
 export const Email = () => {
+  const handleSubmit = () => {
+    sendEmail();
+  };
   return (
     <article className="space-y-4 mt-14">
       <h1 className="flex gap-2 mb-8 text-2xl font-bold text-white">
@@ -42,7 +46,8 @@ export const Email = () => {
             </svg>
           </button>
           <button
-            type="submit"
+            type="button"
+            onClick={handleSubmit}
             data-tooltip-target="send-email"
             className="px-4 bg-indigo-500 rounded-xl"
           >
