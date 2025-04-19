@@ -22,7 +22,7 @@ export const Experience = ({ user }) => {
                 {item.title}
 
                 {item.label && (
-                  <span className="text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-blue-900 text-blue-300 ms-3">
+                  <span className="text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm bg-blue-900 text-blue-300 ms-3">
                     {item.label}
                   </span>
                 )}
