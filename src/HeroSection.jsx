@@ -26,7 +26,7 @@ export const HeroSection = ({ user }) => {
             download
           >
             <Icon icon="solar:user-id-bold" className="mx-auto size-5 text-white/70" />
-            Curriculum
+            Currículum
           </a>
         </div>
       </div>

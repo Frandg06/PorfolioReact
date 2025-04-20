@@ -22,8 +22,8 @@ export const App = () => {
         <ProjectsGrid user={data} />
         <Stack user={data} />
         <Formation user={data} />
-        <Redes user={data} />
         <Email />
+        <Redes user={data} />
       </main>
     </>
   );

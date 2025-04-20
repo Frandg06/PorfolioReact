@@ -1,72 +1,77 @@
 export const data = {
-  name: 'Francisco Diez Gutiérrez',
-  short_name: 'Francisco Diez',
-  hero_desc1: '+2 años de experiencia. Desarrollador Web, soy de Leon, España.',
+  name: 'Francisco Díez Gutiérrez',
+  short_name: 'Francisco Díez',
+
+  hero_desc1: '+2 años de experiencia. Desarrollador web. León, España.',
   hero_desc2:
-    ' Desde mis primeros proyectos he trabajado tanto en frontend como en backend, especializándome en Laravel y React. Siempre buscando ampliar mi area de conocimiento con nuevas tecnologias para asi poder adaptar mis proyectos a distintas circunstancias de manera mas efectiva.',
-  expirience: [
+    'Desde mis primeros proyectos he trabajado tanto en frontend como en backend, especializándome en Laravel y React. Siempre busco ampliar mi área de conocimiento con nuevas tecnologías para así poder adaptar mis proyectos a distintas circunstancias de manera más efectiva.',
+
+  // (¡corregí el nombre de la propiedad!)
+  experience: [
     {
-      title: 'IT Gallery',
+      title: 'ITGallery',
       label: 'Actualmente',
-      date: 'Desde Junio de 2024',
+      date: 'Desde junio de 2024',
       desc: [
-        'Durante mi etapa en IT Gallery, he trabajado como desarrollador Full Stack participando en el desarrollo y mantenimiento de funcionalidades backend utilizando Laravel, centrándome en refactorización de código, optimización del rendimiento y la integración de nuevas soluciones.',
-        'En el frontend, he implementado funcionalidades utilizando PHP (framework propio de la empresa) Jquery, aplicando estilos con CSS, SCSS y Bootstrap. También he integrado PHPDocx para la generación dinámica de documentos como facturas e informes, automatizando procesos administrativos clave.',
-        'Uno de los hitos principales fue el desarrollo completo de las plataformas de gestión para ARCOmadrid y ARCOLisboa, en las que me trabaje enn backend y configure todo el frontend. Además, para asegurar la calidad del software, elaboré tests automatizados utilizando PHPUnit.',
-        'La gestiónes diarias del los diferentes proyectos se llevaron a cabo mediante Jira y el control de versiones en Bitbucket, aplicando metodologías ágiles y flujos de trabajo eficientes.',
+        'Durante mi etapa en ITGallery he trabajado como desarrollador Full Stack, participando en el desarrollo y mantenimiento de funcionalidades de backend con Laravel, centrándome en la refactorización de código, la optimización del rendimiento y la integración de nuevas soluciones.',
+        'En el frontend he implementado funcionalidades utilizando PHP (framework propio de la empresa) y jQuery, aplicando estilos con CSS, SCSS y Bootstrap. También he integrado PHPDocx para la generación dinámica de documentos —como facturas e informes—, automatizando procesos administrativos clave.',
+        'Uno de los hitos principales fue el desarrollo completo de las plataformas de gestión para ARCOmadrid y ARCOLisboa, en las que trabajé en backend y configuré todo el frontend. Además, para asegurar la calidad del software, elaboré tests automatizados con PHPUnit.',
+        'La gestión diaria de los diferentes proyectos se llevó a cabo mediante Jira y el control de versiones en Bitbucket, aplicando metodologías ágiles y flujos de trabajo eficientes.',
       ],
     },
     {
-      title: 'Soluciones Smart de Territorio',
+      title: 'Soluciones Smart de Territorio',
       label: null,
-      date: 'Desde Junio de 2023 hasta Junio de 2024',
+      date: 'Desde junio de 2023 hasta junio de 2024',
       desc: [
-        'En Soluciones Smart de Territorio lideré el desarrollo del sistema de gestión de Servicios Sociales para la Junta de Castilla y León. Me encargué de definir el stack tecnológico, diseñar la arquitectura del software y crear desde cero la base de datos y el proyecto.',
-        'Desde el primer día, asumí la responsabilidad de la planificación técnica y el manejo del proyecto, coordinando tanto el desarrollo como la integración de funcionalidades con la Junta de Castilla y Leon',
-        'Además, participé en el mantenimiento y mejora de la aplicación de incidencias ciudadanas del Ayuntamiento de León, y colaboré directamente con clientes y equipos externos en la toma de requisitos y validación de entregables.',
+        'En Soluciones Smart de Territorio lideré el desarrollo del sistema de gestión de Servicios Sociales para la Junta de Castilla y León. Me encargué de definir el stack tecnológico, diseñar la arquitectura del software y crear desde cero la base de datos y el proyecto.',
+        'Desde el primer día asumí la responsabilidad de la planificación técnica y la gestión del proyecto, coordinando tanto el desarrollo como la integración de funcionalidades con la Junta de Castilla y León.',
+        'Además, participé en el mantenimiento y la mejora de la aplicación de incidencias ciudadanas del Ayuntamiento de León y colaboré directamente con clientes y equipos externos en la toma de requisitos y la validación de entregables.',
       ],
     },
     {
-      title: 'Sica S.A (Prácticas)',
+      title: 'Sica S.A. (Prácticas)',
       label: null,
-      date: 'Desde Marzo de 2023 hasta Junio de 2023',
+      date: 'Desde marzo de 2023 hasta junio de 2023',
       desc: [
-        'Durante mis prácticas en Sica S.A., trabajé en la optimización de un sistema de gestión energética, centrándome en la mejora del rendimiento del backend.',
-        'Realicé la optimización de consultas SQL complejas, logrando reducir significativamente los tiempos de respuesta y el consumo de recursos. Además, llevé a cabo la refactorización del backend desarrollado en PHP utilizando CodeIgniter, mejorando la eficiencia del sistema y su mantenibilidad.',
+        'Durante mis prácticas en Sica S.A. trabajé en la optimización de un sistema de gestión energética, centrándome en la mejora del rendimiento del backend.',
+        'Realicé la optimización de consultas SQL complejas, logrando reducir significativamente los tiempos de respuesta y el consumo de recursos. Además, llevé a cabo la refactorización del backend desarrollado en PHP con CodeIgniter, mejorando la eficiencia del sistema y su mantenibilidad.',
       ],
     },
   ],
+
   formation: [
     {
       title: 'Grado Superior en Administración de Sistemas Informáticos en Red',
-      date: 'Septiembre de 2020 a Julio de 2023',
+      date: 'Septiembre de 2020 a julio de 2023',
       desc: [
-        'Especialización en la gestión y administración de sistemas operativos cliente-servidor, redes y seguridad informática.',
-        'Primeros pasos prácticos en el desarrollo web, combinando conocimientos de sistemas y programación.',
+        'Especialización en la gestión y administración de sistemas operativos cliente‑servidor, redes y seguridad informática.',
+        'Primeros pasos prácticos en desarrollo web, combinando conocimientos de sistemas y programación.',
       ],
     },
     {
       title: 'Grado Superior en Desarrollo de Aplicaciones Web',
-      date: 'Septiembre de 2024 a Julio de 2026 (En curso)',
+      date: 'Septiembre de 2024 a julio de 2026 (en curso)',
       desc: [
-        'Actualmente ampliando conocimientos en el desarrollo y mantenimiento de aplicaciones web dinámicas, orientadas a servicios empresariales y usuarios finales.',
+        'Actualmente amplío mis conocimientos en el desarrollo y mantenimiento de aplicaciones web dinámicas, orientadas a servicios empresariales y usuarios finales.',
       ],
     },
     {
-      title: 'Formación Complementaria',
+      title: 'Formación complementaria',
       date: null,
       desc: [
-        'Certificado en Esquema Nacional de Seguridad (RD 311/2022) por el Centro Criptológico Nacional (Febrero 2024).',
-        'Curso de Despliegue de Laravel y Base de datos en AWS EC2 (Mayo 2024, Udemy).',
-        "Curso 'React: De cero a experto' (Hooks y MERN) (Enero 2023 - Marzo 2023, Udemy).",
-        "Curso 'Domina TailwindCSS - Desde cero a experto' (Enero 2023, Udemy).",
+        'Certificado en Esquema Nacional de Seguridad (RD 311/2022) por el Centro Criptológico Nacional (febrero 2024).',
+        'Curso de despliegue de Laravel y bases de datos en AWS EC2 (mayo 2024, Udemy).',
+        "Curso 'React: De cero a experto' (Hooks y MERN) (enero‑marzo 2023, Udemy).",
+        "Curso 'Domina TailwindCSS – Desde cero a experto' (enero 2023, Udemy).",
       ],
     },
   ],
+
   projects: [
     {
-      title: 'Hooky - SaaS para Eventos Sociales',
-      desc: 'Diseño y desarrollo de una arquitectura de microservicios basada en Laravel (backend principal), React (frontend de usuarios y administración independientes) y Node.js (servidor de WebSockets con Socket.IO). Optimización del tráfico y la seguridad mediante Cloudflare. Integración de un sistema de chat y notificaciones en tiempo real para la interacción de los usuarios durante los eventos. Desarrollo de una landing page en React con integración de pagos segura a través de Stripe. El sistema está actualmente en producción, gestionando eventos con más de 2.500 usuarios conectados simultáneamente.',
+      title: 'Hooky – SaaS para eventos sociales',
+      desc: 'Diseño y desarrollo de una arquitectura de microservicios basada en Laravel (backend principal), React (frontends independientes para usuarios y administración) y Node.js (servidor de WebSockets con Socket.IO). Optimizamos el tráfico y la seguridad mediante Cloudflare. Integramos un sistema de chat y notificaciones en tiempo real que potencia la interacción de los usuarios durante los eventos. Desarrollé una landing page en React con pagos seguros a través de Stripe. El sistema está actualmente en producción y gestiona eventos con más de 2.500 usuarios conectados simultáneamente.',
       url: 'https://hookyapp.es',
       image: 'https://cdn.hookyapp.es/hooky/app/shop/dashboard.webp',
       tags: [
@@ -83,29 +88,29 @@ export const data = {
     },
     {
       title: 'ElTioManu',
-      desc: 'El Tío Manu es una plataforma web desarrollada como catálogo online para un comercio local. La aplicación permite a los usuarios navegar cómodamente por los productos ofrecidos, con una interfaz limpia y moderna. El proyecto fue construido utilizando Laravel combinado con Livewire para crear componentes dinámicos, y se diseñó completamente con TailwindCSS.',
+      desc: 'El Tío Manu es una plataforma web desarrollada como catálogo en línea para un comercio local. Permite a los usuarios explorar cómodamente los productos ofrecidos con una interfaz limpia y moderna. El proyecto se construyó con Laravel y Livewire para crear componentes dinámicos, y se diseñó íntegramente con TailwindCSS.',
       url: 'https://eltiomanu.es',
       image: '/img/project1.png',
       tags: ['Laravel', 'Livewire', 'JavaScript', 'TailwindCSS', 'MySQL', 'PHP'],
     },
   ],
+
+  secondary_projects: [
+    {
+      title: 'Prueba técnica – ITGallery',
+      desc: 'Prueba realizada para acceder al puesto de trabajo en ITGallery. Desarrollo de un CRUD en Laravel y maquetación web a partir de Figma.',
+      url: 'https://github.com/Frandg06/it_gallety_prueba',
+      image: 'https://cdn.hookyapp.es/hooky/app/shop/dashboard.webp',
+      tags: ['Laravel', 'JavaScript', 'CSS', 'MySQL'],
+    },
+  ],
+
   stack: {
     backend: ['PHP', 'Laravel', 'Node.js', 'MySQL', 'PostgreSQL', 'PHPUnit', 'Socket.IO'],
-    frontend: [
-      'JavaScript',
-      'React',
-      'JQuery',
-      'Livewire',
-      'HTML',
-      'Twig',
-      'CSS',
-      'SCSS',
-      'TailwindCSS',
-      'Bootstrap',
-      'Livewire',
-    ],
+    frontend: ['JavaScript', 'React', 'jQuery', 'Livewire', 'HTML', 'Twig', 'CSS', 'SCSS', 'TailwindCSS', 'Bootstrap'],
     tools: ['Swagger', 'Git', 'Cloudflare', 'TanStack Query', 'Vercel'],
   },
+
   linkedin: 'https://www.linkedin.com/in/francisco-diez-gutierrez-a238041b0/',
   github: 'https://github.com/Frandg06',
 };

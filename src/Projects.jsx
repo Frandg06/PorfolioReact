@@ -39,7 +39,7 @@ export const Projects = ({ user }) => {
                   className="flex items-center gap-2 px-5 py-2 font-bold duration-300 bg-white rounded-lg w-fit hover:bg-gray-300"
                 >
                   <Icon icon="mdi:github" className="size-5" />
-                  Codigo
+                  Código
                 </a>
               )}
               <a
