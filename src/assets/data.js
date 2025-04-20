@@ -1,6 +1,6 @@
 export const data = {
-  name: 'Francisco Díez Gutiérrez',
-  short_name: 'Francisco Díez',
+  name: 'Francisco Diez Gutiérrez',
+  short_name: 'Francisco Diez',
 
   hero_desc1: '+2 años de experiencia. Desarrollador web. León, España.',
   hero_desc2:

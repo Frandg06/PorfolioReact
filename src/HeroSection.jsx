@@ -3,13 +3,18 @@ import PropTypes from 'prop-types';
 
 export const HeroSection = ({ user }) => {
   return (
-    <section className="flex flex-col items-center gap-4 border-b border-gray-500 border-dotted sm:flex-row pb-14">
-      <div className="overflow-hidden border-8 border-gray-900 rounded-full aspect-square w-44 bg-gray-700/50">
-        <img src="/img/avatar.webp" alt="Imagen de perfi (avatar)" className="object-cover w-full h-full" />
+    <section className="flex flex-col sm:items-center gap-4 border-b border-gray-500 border-dotted sm:flex-row pb-14">
+      <div className="flex items-center gap-2">
+        <div className="overflow-hidden border-4 border-gray-900 rounded-full aspect-square sm:w-44 bg-gray-700/50 w-32">
+          <img src="/img/avatar.webp" alt="Imagen de perfi (avatar)" className="object-cover w-full h-full" />
+        </div>
+        <h1 className="text-2xl font-bold text-center text-white sm:text-4xl sm:text-start">{user.short_name}</h1>
       </div>
       <div className="flex flex-col gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-center text-white sm:text-4xl sm:text-start">{user.name}</h1>
+          <h1 className="text-2xl font-bold text-center text-white sm:text-4xl sm:text-start sm:block hidden">
+            {user.name}
+          </h1>
           <p className="my-3 text-md sm:text-md text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc1}</p>
           <p className="text-md sm:text-md text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc2}</p>
         </div>
