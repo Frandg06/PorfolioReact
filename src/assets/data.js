@@ -1,9 +1,9 @@
 export const data = {
   name: 'Francisco Diez Gutiérrez',
   short_name: 'Francisco Diez',
-  hero_desc1:
-    'Desarrollador Full Stack con más de dos años de experiencia, especializado en PHP (Laravel) y JavaScript.',
-  hero_desc2: 'Experto en la creación de plataformas web completas, bases de datos, APIs y sistemas en tiempo real.',
+  hero_desc1: '+2 años de experiencia. Desarrollador Web, soy de Leon, España.',
+  hero_desc2:
+    ' Desde mis primeros proyectos he trabajado tanto en frontend como en backend, especializándome en Laravel y React. Siempre buscando ampliar mi area de conocimiento con nuevas tecnologias para asi poder adaptar mis proyectos a distintas circunstancias de manera mas efectiva.',
   expirience: [
     {
       title: 'IT Gallery',

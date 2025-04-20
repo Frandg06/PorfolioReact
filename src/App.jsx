@@ -14,7 +14,7 @@ export const App = () => {
   return (
     <>
       <Header name={data.short_name} />
-      <main className="px-4 mx-auto mt-8 max-w-7xl sm:mt-0">
+      <main className="px-4 mx-auto md:-8 max-w-7xl sm:mt-0">
         <Marquee pauseOnHover className="[--duration:20s]"></Marquee>
         <HeroSection user={data} />
         <Experience user={data} />
