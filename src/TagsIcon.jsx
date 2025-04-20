@@ -31,7 +31,7 @@ export const TagsIcon = ({ iconName, className }) => {
       return <img src="/img/tanstacklogo.png" alt="TanStack Query" className={className} />;
     case 'HTML':
       return <Icon icon="skill-icons:html" className={className} />;
-    case 'JQuery':
+    case 'jQuery':
       return <Icon icon="devicon:jquery" className={className} />;
     case 'Twig':
       return <Icon icon="material-icon-theme:twig" className={className} />;
@@ -49,6 +49,10 @@ export const TagsIcon = ({ iconName, className }) => {
       return <Icon icon="material-icon-theme:phpunit" className={className} />;
     case 'Vercel':
       return <Icon icon="devicon:vercel" className={className} />;
+    case 'Inertia.js':
+      return <Icon icon="devicon:inertiajs" className={className} />;
+    case 'shadcn/ui':
+      return <Icon icon="simple-icons:shadcnui" className={className} />;
   }
 };
 

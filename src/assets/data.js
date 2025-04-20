@@ -87,15 +87,22 @@ export const data = {
       ],
     },
     {
-      title: 'ElTioManu',
-      desc: 'El Tío Manu es una plataforma web desarrollada como catálogo en línea para un comercio local. Permite a los usuarios explorar cómodamente los productos ofrecidos con una interfaz limpia y moderna. El proyecto se construyó con Laravel y Livewire para crear componentes dinámicos, y se diseñó íntegramente con TailwindCSS.',
-      url: 'https://eltiomanu.es',
-      image: '/img/project1.png',
-      tags: ['Laravel', 'Livewire', 'JavaScript', 'TailwindCSS', 'MySQL', 'PHP'],
+      title: 'Blog personal - Desarrollo web',
+      desc: 'He creado espacio dedicado al desarrollo web, centrado principalmente en el ecosistema de Laravel y PHP. A través de artículos, guías y proyectos, explora también tecnologías modernas como JavaScript, React e Inertia.js. El blog está construido utilizando Laravel, React y TailwindCSS, incorporando la librería de componentes shadcn/ui para ofrecer una experiencia visual limpia y elegante. La base de datos se gestiona con PostgreSQL, asegurando un rendimiento óptimo y escalabilidad.',
+      url: 'https://blog.frandiez.es', // Aquí puedes poner la URL real
+      image: '/img/blog.webp', // Aquí tu imagen representativa
+      tags: ['Laravel', 'React', 'Inertia.js', 'PHP', 'JavaScript', 'TailwindCSS', 'shadcn/ui', 'PostgreSQL'],
     },
   ],
 
   secondary_projects: [
+    {
+      title: 'ElTioManu',
+      desc: 'El Tío Manu es una plataforma web desarrollada como catálogo en línea para un comercio local. Permite a los usuarios explorar cómodamente los productos ofrecidos. El proyecto se construyó con Laravel y Livewire para crear componentes dinámicos, y se diseñó íntegramente con TailwindCSS.',
+      url: 'https://eltiomanu.es',
+      image: '/img/project1.png',
+      tags: ['Laravel', 'Livewire', 'JavaScript', 'TailwindCSS', 'MySQL', 'PHP'],
+    },
     {
       title: 'Prueba técnica – ITGallery',
       desc: 'Prueba realizada para acceder al puesto de trabajo en ITGallery. Desarrollo de un CRUD en Laravel y maquetación web a partir de Figma.',
