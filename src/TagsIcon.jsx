@@ -29,6 +29,26 @@ export const TagsIcon = ({ iconName, className }) => {
       return <Icon icon="devicon:css3" className={className} />;
     case 'TanStack Query':
       return <img src="/img/tanstacklogo.png" alt="TanStack Query" className={className} />;
+    case 'HTML':
+      return <Icon icon="skill-icons:html" className={className} />;
+    case 'JQuery':
+      return <Icon icon="devicon:jquery" className={className} />;
+    case 'Twig':
+      return <Icon icon="material-icon-theme:twig" className={className} />;
+    case 'Bootstrap':
+      return <Icon icon="logos:bootstrap" className={className} />;
+    case 'SCSS':
+      return <Icon icon="vscode-icons:file-type-scss" className={className} />;
+    case 'Git':
+      return <Icon icon="devicon:git" className={className} />;
+    case 'Docker':
+      return <Icon icon="devicon:docker" className={className} />;
+    case 'Swagger':
+      return <Icon icon="logos:swagger" className={className} />;
+    case 'PHPUnit':
+      return <Icon icon="material-icon-theme:phpunit" className={className} />;
+    case 'Vercel':
+      return <Icon icon="devicon:vercel" className={className} />;
   }
 };
 
