@@ -9,10 +9,12 @@ import { Email } from './Email';
 import { Redes } from './Redes';
 import { Marquee } from './Marque';
 import { Stack } from './Stack';
+import { Toaster } from 'react-hot-toast';
 
 export const App = () => {
   return (
     <>
+      <Toaster />
       <Header name={data.short_name} />
       <main className="px-4 mx-auto md:-8 max-w-7xl sm:mt-0">
         <Marquee pauseOnHover className="[--duration:20s]"></Marquee>

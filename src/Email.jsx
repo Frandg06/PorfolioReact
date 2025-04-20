@@ -1,8 +1,14 @@
 import { Html, Text } from '@react-email/components';
 import { EmailIcon } from './EmailIcon';
+import toast from 'react-hot-toast';
 
 export const Email = () => {
+  const email = 'fdiez86@gmail.com';
   const handleSubmit = async () => {};
+  const handleCopy = () => {
+    navigator.clipboard.writeText(email);
+    toast.success('Email copiado al portapapeles');
+  };
   return (
     <article className="space-y-4 mt-14">
       <h1 className="flex gap-2 mb-8 text-2xl font-bold text-white">
@@ -12,9 +18,13 @@ export const Email = () => {
       <form>
         <div className="flex gap-2 mb-3">
           <p id="emailInput" className="w-full p-2 text-gray-400 bg-gray-700 border border-gray-600 rounded-xl">
-            fdiez86@gmail.com
+            {email}
           </p>
-          <button type="button" data-tooltip-target="copy-email" className="px-4 bg-indigo-500 rounded-xl">
+          <button
+            type="button"
+            onClick={handleCopy}
+            className="px-4 bg-indigo-500 rounded-xl cursor-pointer hover:scale-105 duration-200 transition-all hover:bg-indigo-600"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 1024 1024">
               <path fill="#ffffff" fillOpacity=".15" d="M232 706h142c22.1 0 40 17.9 40 40v142h250V264H232z" />
               <path
