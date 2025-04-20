@@ -8,7 +8,7 @@ export const HeroSection = ({ user }) => {
         <div className="overflow-hidden border-4 border-gray-900 rounded-full aspect-square sm:w-44 bg-gray-700/50 w-32">
           <img src="/img/avatar.webp" alt="Imagen de perfi (avatar)" className="object-cover w-full h-full" />
         </div>
-        <h1 className="text-2xl font-bold text-center text-white sm:text-4xl sm:text-start">{user.short_name}</h1>
+        <h1 className="text-2xl font-bold text-center text-white sm:text-4xl sm:hidden">{user.short_name}</h1>
       </div>
       <div className="flex flex-col gap-4">
         <div>
