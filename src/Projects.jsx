@@ -22,10 +22,10 @@ export const Projects = ({ user }) => {
           <div className="flex flex-col justify-between w-full md:col-span-7 space-y-3 ">
             <h1 className="block p-0 m-0 text-2xl font-bold text-white">{item.title}</h1>
             <p className="block p-0 m-0 text-sm text-white/70 text-balance">{item.desc}</p>
-            <div className="flex gap-2">
+            <div className="flex gap-2 flex-wrap">
               {item.tags.map((tag, index) => (
                 <div className="tooltip" data-tip={tag} key={`${index}-tag`}>
-                  <div className="flex items-center w-10 h-10 p-1 transition-all duration-200 rounded-lg bg-gray-700/50 hover:-translate-y-2">
+                  <div className="flex  items-center w-10 h-10 p-1 transition-all duration-200 rounded-lg bg-gray-700/50 hover:-translate-y-2">
                     <TagsIcon iconName={tag} className="mx-auto size-7" />
                   </div>
                 </div>
