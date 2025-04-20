@@ -12,7 +12,7 @@ export const ProjectsGrid = ({ user }) => {
           key={`${index}-project-grid`}
           className="relative p-4 duration-300 border-2 h-fit min-h-44 border-white/30 rounded-2xl group/project2 hover:border-white/70 hover:-translate-y-2"
         >
-          <div className="flex flex-col justify-between h-36 ">
+          <div className="flex flex-col justify-between h-36 min-h-fit">
             <h1 className="block p-0 m-0 text-xl font-bold text-white">{item.title}</h1>
             <p className="block p-0 m-0 text-white/70 text-balance text-sm">{item.desc}</p>
             <div className="flex gap-2 py-2">
