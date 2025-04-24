@@ -7,16 +7,16 @@ export const Header = ({ name }) => {
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
   };
   window.onscroll = function () {
-    if (window.scrollY > 200) {
+    if (window.scrollY > 120) {
       document.querySelector('.scroll').classList.remove('opacity-0');
     }
-    if (window.scrollY < 200) {
+    if (window.scrollY < 120) {
       document.querySelector('.scroll').classList.add('opacity-0');
     }
   };
   return (
     <header className="h-[72px] max-w-7xl mx-auto sticky top-0 z-50 backdrop-blur-md px-4 flex justify-between items-center ">
-      <div className="flex items-center h-full gap-4 scroll opacity-0 transition-all">
+      <div className="flex items-center h-full gap-4 scroll opacity-0 transition-all duration-500">
         <div className=" overflow-hidden border-4 border-gray-900 rounded-full aspect-square w-14 bg-gray-700/50 sm:block">
           <img src="/img/avatar.webp" alt="Imagen de perfi (avatar)" className="object-cover w-full h-full" />
         </div>
