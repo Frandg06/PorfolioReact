@@ -16,7 +16,7 @@ export const Email = () => {
       </h1>
       <form>
         <div className="flex gap-2 mb-3">
-          <p id="emailInput" className="w-full p-2 text-gray-400 dark:bg-gray-700 border border-gray-600 rounded-xl">
+          <p id="emailInput" className="w-full p-2 text-gray-400 dark:bg-black border border-gray-600 rounded-xl">
             {email}
           </p>
           <button
