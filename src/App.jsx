@@ -7,17 +7,23 @@ import { Projects } from './Projects';
 import { ProjectsGrid } from './ProjectsGrid';
 import { Email } from './Email';
 import { Redes } from './Redes';
-import { Marquee } from './Marque';
 import { Stack } from './Stack';
 import { Toaster } from 'react-hot-toast';
-
+import { useEffect } from 'react';
+import '@fontsource-variable/jetbrains-mono';
+import '@fontsource-variable/atkinson-hyperlegible-next';
 export const App = () => {
+  useEffect(() => {
+    const theme = localStorage.getItem('theme');
+    if (theme) {
+      document.querySelector('html').setAttribute('class', theme);
+    }
+  }, []);
   return (
     <>
       <Toaster />
       <Header name={data.short_name} />
-      <main className="px-4 mx-auto md:-8 max-w-7xl sm:mt-0">
-        <Marquee pauseOnHover className="[--duration:20s]"></Marquee>
+      <main className="px-4 mx-auto md:-8 max-w-7xl sm:mt-0 z-10 relative text-black">
         <HeroSection user={data} />
         <Experience user={data} />
         <Projects user={data} />

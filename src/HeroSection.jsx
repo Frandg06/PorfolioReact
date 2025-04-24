@@ -8,15 +8,15 @@ export const HeroSection = ({ user }) => {
         <div className="overflow-hidden border-4 border-gray-900 rounded-full aspect-square sm:w-44 bg-gray-700/50 w-32">
           <img src="/img/avatar.webp" alt="Imagen de perfi (avatar)" className="object-cover w-full h-full" />
         </div>
-        <h1 className="text-2xl font-bold text-center text-white sm:text-4xl sm:hidden">{user.short_name}</h1>
+        <h1 className="text-2xl font-mono text-center dark:text-white sm:text-4xl sm:hidden">{user.short_name}</h1>
       </div>
       <div className="flex flex-col gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-center text-white sm:text-4xl sm:text-start sm:block hidden">
+          <h1 className="text-2xl font-mono text-center dark:text-white sm:text-4xl sm:text-start sm:block hidden">
             {user.name}
           </h1>
-          <p className="my-3 text-md sm:text-md text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc1}</p>
-          <p className="text-md sm:text-md text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc2}</p>
+          <p className="my-3 text-md sm:text-md dark:text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc1}</p>
+          <p className="text-md sm:text-md dark:text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc2}</p>
         </div>
         <div className="flex gap-4 text-md">
           <div className="tooltip size-10" data-tip="Abierto a nuevas oportunidades">
@@ -25,12 +25,12 @@ export const HeroSection = ({ user }) => {
             </button>
           </div>
           <a
-            className="flex items-center justify-center gap-2 p-2 font-semibold duration-500 bg-indigo-500 rounded-lg text-white/70 hover:bg-indigo-700 hover:-translate-y-1"
+            className="flex items-center justify-center gap-2 p-2 font-semibold duration-500 bg-indigo-500 rounded-lg text-white/80 font-mono hover:bg-indigo-600 hover:-translate-y-1 text-sm"
             data-tooltip-target="descargar-cv"
             href="/Francisco_Diez_Gutierrez.pdf"
             download
           >
-            <Icon icon="solar:user-id-bold" className="mx-auto size-5 text-white/70" />
+            <Icon icon="solar:user-id-bold" className="mx-auto size-5 text-white/80" />
             Currículum
           </a>
         </div>

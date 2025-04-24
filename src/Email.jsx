@@ -4,20 +4,19 @@ import toast from 'react-hot-toast';
 
 export const Email = () => {
   const email = 'fdiez86@gmail.com';
-  const handleSubmit = async () => {};
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
     toast.success('Email copiado al portapapeles');
   };
   return (
     <article className="space-y-4 mt-14">
-      <h1 className="flex gap-2 mb-8 text-2xl font-bold text-white">
+      <h1 className="flex gap-2 mb-8 text-2xl  dark:text-white">
         Email
         <EmailIcon />
       </h1>
       <form>
         <div className="flex gap-2 mb-3">
-          <p id="emailInput" className="w-full p-2 text-gray-400 bg-gray-700 border border-gray-600 rounded-xl">
+          <p id="emailInput" className="w-full p-2 text-gray-400 dark:bg-gray-700 border border-gray-600 rounded-xl">
             {email}
           </p>
           <button
@@ -58,7 +57,7 @@ export const Email = () => {
           <textarea
             id="message"
             rows="4"
-            className="block p-2.5 w-full text-sm rounded-lg border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+            className="block p-2.5 w-full text-sm rounded-lg border bg-gray-700 border-gray-600 placeholder-gray-400 dark:text-white focus:ring-blue-500 focus:border-blue-500"
             placeholder="Escribe tu email aqui"
           ></textarea>
         </div> */}
