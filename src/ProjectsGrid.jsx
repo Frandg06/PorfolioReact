@@ -9,7 +9,7 @@ export const ProjectsGrid = ({ user }) => {
       {user.secondary_projects.map((item, index) => (
         <LinkPreview
           url={item.url}
-          imageSrc={item.image}
+          imageSrc={item.image ?? null}
           isStatic
           key={`${index}-project-grid`}
           className="relative p-4 duration-300 border-2 h-fit min-h-44 dark:border-white/30 rounded-2xl group/project2 dark:hover:border-white/70 hover:-translate-y-2 border-gray-200 hover:border-gray-600"
