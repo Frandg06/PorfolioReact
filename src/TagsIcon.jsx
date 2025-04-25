@@ -22,7 +22,7 @@ export const TagsIcon = ({ iconName, className }) => {
     case 'React':
       return <Icon icon="logos:react" className={className} />;
     case 'Socket.IO':
-      return <Icon icon="devicon:socketio" className={className} />;
+      return <Icon icon="cib:socket-io" className={className} />;
     case 'Cloudflare':
       return <Icon icon="devicon:cloudflare" className={className} />;
     case 'CSS':
@@ -48,7 +48,7 @@ export const TagsIcon = ({ iconName, className }) => {
     case 'PHPUnit':
       return <Icon icon="material-icon-theme:phpunit" className={className} />;
     case 'Vercel':
-      return <Icon icon="devicon:vercel" className={className} />;
+      return <Icon icon="simple-icons:vercel" className={className} />;
     case 'Inertia.js':
       return <Icon icon="devicon:inertiajs" className={className} />;
     case 'shadcn/ui':

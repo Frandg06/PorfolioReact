@@ -34,7 +34,7 @@ export const Projects = ({ user }) => {
             <div className="flex gap-2 flex-wrap">
               {item.tags.map((tag, index) => (
                 <div className="tooltip" data-tip={tag} key={`${index}-tag`}>
-                  <div className="flex  items-center w-10 h-10 p-1 transition-all duration-200 rounded-lg dark:bg-gray-700/50 bg-gray-200 hover:-translate-y-2">
+                  <div className="flex dark:text-white items-center w-10 h-10 p-1 transition-all duration-200 rounded-lg dark:bg-neutral-800 bg-gray-200 hover:-translate-y-2">
                     <TagsIcon iconName={tag} className="mx-auto size-7" />
                   </div>
                 </div>
