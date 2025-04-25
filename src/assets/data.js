@@ -107,7 +107,6 @@ export const data = {
       title: 'Prueba técnica – ITGallery',
       desc: 'Prueba realizada para acceder al puesto de trabajo en ITGallery. Desarrollo de un CRUD en Laravel y maquetación web a partir de Figma.',
       url: 'https://github.com/Frandg06/it_gallety_prueba',
-      image: 'https://cdn.hookyapp.es/hooky/app/shop/dashboard.webp',
       tags: ['Laravel', 'JavaScript', 'CSS', 'MySQL'],
     },
   ],

@@ -12,11 +12,13 @@
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.2.1",
     "@fontsource-variable/jetbrains-mono": "^5.2.5",
+    "@radix-ui/react-hover-card": "^1.1.11",
     "@react-email/components": "^0.0.36",
     "clsx": "^2.1.1",
     "html-react-parser": "^5.2.3",
     "motion": "^12.9.1",
     "prop-types": "^15.8.1",
+    "qss": "^3.0.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",

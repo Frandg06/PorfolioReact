@@ -1,14 +1,16 @@
 import PropTypes from 'prop-types';
 import { ArrowIcon } from './ArrowIcon';
 import { TagsIcon } from './TagsIcon';
+import { LinkPreview } from './LinikPreview';
 
 export const ProjectsGrid = ({ user }) => {
   return (
     <article className="grid gap-8 md:grid-cols-2 mt-14">
       {user.secondary_projects.map((item, index) => (
-        <a
-          href={item.url}
-          target="_blank"
+        <LinkPreview
+          url={item.url}
+          imageSrc={item.image}
+          isStatic
           key={`${index}-project-grid`}
           className="relative p-4 duration-300 border-2 h-fit min-h-44 dark:border-white/30 rounded-2xl group/project2 dark:hover:border-white/70 hover:-translate-y-2 border-gray-200 hover:border-gray-600"
         >
@@ -24,7 +26,7 @@ export const ProjectsGrid = ({ user }) => {
           <div className="absolute top-0 right-0 p-4 transition-transform scale-0 group-hover/project2:scale-100">
             <ArrowIcon />
           </div>
-        </a>
+        </LinkPreview>
       ))}
     </article>
   );
