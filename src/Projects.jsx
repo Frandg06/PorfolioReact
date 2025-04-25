@@ -6,7 +6,7 @@ export const Projects = ({ user }) => {
     <article className="mt-20">
       <h1 className="flex gap-2 mb-8 text-2xl  dark:text-white">
         Projectos
-        <Icon icon="fluent-emoji-high-contrast:star" className="size-8 dark:text-white/80" />
+        <Icon icon="solar:star-bold-duotone" className="size-8 dark:text-white/80" />
       </h1>
       {user.projects.map((item, index) => (
         <article className="grid md:grid-cols-12 gap-6 mb-6 group/project md:h-72" key={`${index}-project`}>
@@ -20,7 +20,14 @@ export const Projects = ({ user }) => {
             </figure>
           </a>
           <div className="flex flex-col justify-between w-full md:col-span-7 gap-4">
-            <h1 className="block p-0 m-0 text-2xl  dark:text-white font-mono">{item.title}</h1>
+            <div className="flex items-center justify-between">
+              <h1 className="block p-0 m-0 text-2xl  dark:text-white font-mono">{item.title}</h1>
+              {item.label && (
+                <span className="px-2 py-1 text-sm font-bold text-white bg-indigo-500 rounded-lg rotate-6">
+                  {item.label}
+                </span>
+              )}
+            </div>
             <p className="block p-0 m-0 text-sm md:text-base dark:text-white/70 text-balance text-neutral-700">
               {item.desc}
             </p>

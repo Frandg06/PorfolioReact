@@ -88,6 +88,7 @@ export const data = {
     },
     {
       title: 'Blog personal - Desarrollo web',
+      label: 'En construcción',
       desc: 'He creado un espacio dedicado al desarrollo web, centrado en Laravel y PHP, pero también con contenido sobre otras tecnologías como JavaScript o React. El blog está construido con Laravel, Inertia, React, TailwindCSS y shadcn/ui, y usa PostgreSQL para como base de datos.',
       url: 'https://blog.frandiez.es', // Aquí puedes poner la URL real
       image: '/img/blog.webp', // Aquí tu imagen representativa
@@ -120,4 +121,5 @@ export const data = {
 
   linkedin: 'https://www.linkedin.com/in/francisco-diez-gutierrez-a238041b0/',
   github: 'https://github.com/Frandg06',
+  email: 'mailto:fdiez86@gmail.com',
 };

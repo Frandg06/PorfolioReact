@@ -1,6 +1,7 @@
 import { Html, Text } from '@react-email/components';
 import { EmailIcon } from './EmailIcon';
 import toast from 'react-hot-toast';
+import { Icon } from '@iconify/react/dist/iconify.js';
 
 export const Email = () => {
   const email = 'fdiez86@gmail.com';
@@ -10,9 +11,9 @@ export const Email = () => {
   };
   return (
     <article className="space-y-4 mt-14">
-      <h1 className="flex gap-2 mb-8 text-2xl  dark:text-white">
+      <h1 className="flex gap-2 mb-8 text-2xl items-center dark:text-white">
         Email
-        <EmailIcon />
+        <Icon icon="solar:inbox-unread-bold-duotone" />
       </h1>
       <form>
         <div className="flex gap-2 mb-3">
