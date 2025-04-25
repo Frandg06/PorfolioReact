@@ -11,7 +11,7 @@ export const Projects = ({ user }) => {
       {user.projects.map((item, index) => (
         <article className="grid md:grid-cols-12 gap-6 mb-6 group/project md:h-72" key={`${index}-project`}>
           <a
-            className="relative block w-full  md:col-span-5 overflow-hidden cursor-pointer dark:bg-gray-700/50 bg-gray-200 rounded-xl min-h-64"
+            className="relative block w-full  md:col-span-5 overflow-hidden cursor-pointer dark:bg-neutral-800 bg-gray-200 rounded-xl min-h-64"
             href={item.url}
             target="_blank"
           >

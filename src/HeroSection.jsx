@@ -1,22 +1,23 @@
 import { Icon } from '@iconify/react/dist/iconify.js';
 import PropTypes from 'prop-types';
-
+import parse from 'html-react-parser';
 export const HeroSection = ({ user }) => {
   return (
     <section className="flex flex-col sm:items-center gap-4 border-b border-gray-500 border-dotted sm:flex-row pb-14">
       <div className="flex items-center gap-2">
-        <div className="overflow-hidden border-4 border-gray-900 rounded-full aspect-square sm:w-44 bg-gray-700/50 w-32">
+        <figure className="overflow-hidden border border-primary rounded-full aspect-square sm:size-48 bg-neutral-800 size-32">
           <img src="/img/avatar.webp" alt="Imagen de perfi (avatar)" className="object-cover w-full h-full" />
-        </div>
-        <h1 className="text-2xl font-mono text-center dark:text-white sm:text-4xl sm:hidden">{user.short_name}</h1>
+        </figure>
+        <h1 className="text-2xl font-mono text-center text-primary sm:text-4xl sm:hidden">{user.short_name}</h1>
       </div>
       <div className="flex flex-col gap-4">
         <div>
-          <h1 className="text-2xl font-mono text-center dark:text-white sm:text-4xl sm:text-start sm:block hidden">
+          <h1 className="text-2xl font-mono text-center text-primary sm:text-4xl sm:text-start sm:block hidden">
             {user.name}
           </h1>
-          <p className="my-3 text-md sm:text-md dark:text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc1}</p>
-          <p className="text-md sm:text-md dark:text-white/70 sm:text-balance max-w-[95ch]">{user.hero_desc2}</p>
+          <p className="my-3 text-md sm:text-md sm:text-balance max-w-[50ch] text-secondary">
+            {parse(user.hero_desc1)}
+          </p>
         </div>
         <div className="flex gap-4 text-md">
           <div className="tooltip size-10" data-tip="Abierto a nuevas oportunidades">

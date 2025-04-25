@@ -6,6 +6,17 @@
 @theme {
   --font-sans: 'Atkinson Hyperlegible Next Variable', sans-serif;
   --font-mono: 'JetBrains Mono Variable';
+  --text-color-highlighted: var(--color-orange-500);
+  --text-color-primary: var(--color-black);
+  --text-color-secondary: var(--color-neutral-700);
+  --border-color-primary: var(--color-gray-300);
+}
+
+.dark {
+  --border-color-primary: var(--color-neutral-400);
+  --text-color-highlighted: var(--color-yellow-400);
+  --text-color-primary: var(--color-white);
+  --text-color-secondary: var(--color-gray-300);
 }
 
 @layer base {

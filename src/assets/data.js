@@ -2,9 +2,8 @@ export const data = {
   name: 'Francisco Diez Gutiérrez',
   short_name: 'Francisco Diez',
 
-  hero_desc1: '+2 años de experiencia. Desarrollador web. León, España.',
-  hero_desc2:
-    'Desde mis primeros proyectos he trabajado tanto en frontend como en backend, especializándome en Laravel y React. Siempre busco ampliar mi área de conocimiento con nuevas tecnologías para así poder adaptar mis proyectos a distintas circunstancias de manera más efectiva.',
+  hero_desc1:
+    '+2 años de experiencia. <span className="text-highlighted">Técnico en desarrollo de aplicaciones web y en administración de sistemas</span>. León, España 🇪🇸. Especializado en el desarrollo de aplicaciones web únicas.',
 
   // (¡corregí el nombre de la propiedad!)
   experience: [
@@ -13,7 +12,7 @@ export const data = {
       label: 'Actualmente',
       date: 'Desde junio de 2024',
       desc: [
-        'Durante mi etapa en ITGallery he trabajado como desarrollador Full Stack, participando en el desarrollo y mantenimiento de funcionalidades de backend con Laravel, centrándome en la refactorización de código, la optimización del rendimiento y la integración de nuevas soluciones.',
+        'Durante mi etapa en ITGallery he trabajado como desarrollador Wep Full Stack, participando en el desarrollo y mantenimiento de funcionalidades de backend con Laravel, centrándome en la refactorización de código, la optimización del rendimiento y la integración de nuevas soluciones.',
         'En el frontend he implementado funcionalidades utilizando PHP (framework propio de la empresa) y jQuery, aplicando estilos con CSS, SCSS y Bootstrap. También he integrado PHPDocx para la generación dinámica de documentos —como facturas e informes—, automatizando procesos administrativos clave.',
         'Uno de los hitos principales fue el desarrollo completo de las plataformas de gestión para ARCOmadrid y ARCOLisboa, en las que trabajé en backend y configuré todo el frontend. Además, para asegurar la calidad del software, elaboré tests automatizados con PHPUnit.',
         'La gestión diaria de los diferentes proyectos se llevó a cabo mediante Jira y el control de versiones en Bitbucket, aplicando metodologías ágiles y flujos de trabajo eficientes.',

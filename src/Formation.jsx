@@ -12,8 +12,8 @@ export const Formation = ({ user }) => {
         <ol className="relative dark:border-gray-700 border-s pl-5">
           {user.formation.map((item, index) => (
             <li className="mb-10 ms-6" key={`${index}-formation`}>
-              <span className="absolute flex items-center justify-center w-10 h-10 bg-indigo-500 rounded-full -start-5 border-[6px] border-gray-900">
-                <Icon icon="mdi:school-outline" className="mx-auto dark:text-white size-5" />
+              <span className="absolute flex items-center justify-center w-10 h-10 bg-indigo-500 rounded-full -start-5 ">
+                <Icon icon="mdi:school-outline" className="mx-auto text-white size-5" />
               </span>
               <h3 className="flex items-center mb-1 text-lg font-mono dark:text-white font-semibold">{item.title}</h3>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-500 mt-5">{item.date}</time>

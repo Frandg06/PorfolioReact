@@ -20,10 +20,10 @@ export const Header = ({ name }) => {
     <header className="h-[72px] sticky top-0 z-50 flex items-center">
       <div className="max-w-7xl flex items-center h-full gap-4 mx-auto justify-between w-full px-4 md:px-14">
         <div className="flex items-center gap-4 scroll opacity-0 transition-all duration-500">
-          <figure className=" overflow-hidden border-4 border-gray-900 rounded-full aspect-square w-14 bg-gray-700/50 sm:block">
+          <figure className=" overflow-hidden border-1 border-primary rounded-full aspect-square w-14 bg-neutral-800 sm:block">
             <img src="/img/avatar.webp" alt="Imagen de perfi (avatar)" className="object-cover w-full h-full" />
           </figure>
-          <h1 className="text-xl font-mono dark:text-white text-black">{name}</h1>
+          <h1 className="text-xl font-mono text-primary">{name}</h1>
         </div>
         <button
           onClick={handleClick}
