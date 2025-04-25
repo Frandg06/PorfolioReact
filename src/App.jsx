@@ -23,7 +23,7 @@ export const App = () => {
     <>
       <Toaster />
       <Header name={data.short_name} />
-      <main className="px-4 mx-auto md:-8 max-w-7xl sm:mt-0 z-10 relative text-black">
+      <main className="px-4 mx-auto md:px-14 max-w-7xl sm:mt-0 z-10 relative text-black">
         <HeroSection user={data} />
         <Experience user={data} />
         <Projects user={data} />

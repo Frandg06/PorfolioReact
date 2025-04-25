@@ -12,9 +12,9 @@ export const ProjectsGrid = ({ user }) => {
           key={`${index}-project-grid`}
           className="relative p-4 duration-300 border-2 h-fit min-h-44 dark:border-white/30 rounded-2xl group/project2 dark:hover:border-white/70 hover:-translate-y-2 border-gray-200 hover:border-gray-600"
         >
-          <div className="flex flex-col justify-between h-36 min-h-fit">
+          <div className="flex flex-col justify-between h-40 min-h-fit gap-2">
             <h1 className="block p-0 m-0 text-xl font-mono dark:text-white">{item.title}</h1>
-            <p className="block p-0 m-0 dark:text-white/70 text-balance text-sm">{item.desc}</p>
+            <p className="block p-0 m-0 dark:text-white/70 text-balance text-sm text-neutral-700">{item.desc}</p>
             <div className="flex gap-2 py-2">
               {item.tags.map((tag, index) => (
                 <TagsIcon iconName={tag} className="size-5" key={`${index}-tag-grid`} />

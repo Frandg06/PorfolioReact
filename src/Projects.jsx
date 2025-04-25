@@ -19,9 +19,11 @@ export const Projects = ({ user }) => {
               <img src={item.image} alt="" className="object-cover w-full h-full duration-700 scale-110 rounded-xl" />
             </figure>
           </a>
-          <div className="flex flex-col justify-between w-full md:col-span-7 space-y-3 ">
+          <div className="flex flex-col justify-between w-full md:col-span-7 gap-4">
             <h1 className="block p-0 m-0 text-2xl  dark:text-white font-mono">{item.title}</h1>
-            <p className="block p-0 m-0 text-sm dark:text-white/70 text-balance text-neutral-700">{item.desc}</p>
+            <p className="block p-0 m-0 text-sm md:text-base dark:text-white/70 text-balance text-neutral-700">
+              {item.desc}
+            </p>
             <div className="flex gap-2 flex-wrap">
               {item.tags.map((tag, index) => (
                 <div className="tooltip" data-tip={tag} key={`${index}-tag`}>

@@ -15,11 +15,11 @@ export const Formation = ({ user }) => {
               <span className="absolute flex items-center justify-center w-10 h-10 bg-indigo-500 rounded-full -start-5 border-[6px] border-gray-900">
                 <Icon icon="mdi:school-outline" className="mx-auto dark:text-white size-5" />
               </span>
-              <h3 className="flex items-center mb-1 text-lg font-mono dark:text-white">{item.title}</h3>
+              <h3 className="flex items-center mb-1 text-lg font-mono dark:text-white font-semibold">{item.title}</h3>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-500 mt-5">{item.date}</time>
               {item.desc.map((desc, index) => (
                 <p
-                  className="mb-4 font-normal dark:text-gray-400 text-neutrla-700 text-sm md:text-base"
+                  className="mb-4 font-normal dark:text-gray-400 text-neutral-700 text-sm md:text-base"
                   key={`${index}-desc`}
                 >
                   {desc}

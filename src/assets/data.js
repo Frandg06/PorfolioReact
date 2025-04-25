@@ -71,7 +71,7 @@ export const data = {
   projects: [
     {
       title: 'Hooky – SaaS para eventos sociales',
-      desc: 'Diseño y desarrollo de una arquitectura de microservicios basada en Laravel (backend principal), React (frontends independientes para usuarios y administración) y Node.js (servidor de WebSockets con Socket.IO). Optimizamos el tráfico y la seguridad mediante Cloudflare. Integramos un sistema de chat y notificaciones en tiempo real que potencia la interacción de los usuarios durante los eventos. Desarrollé una landing page en React con pagos seguros a través de Stripe. El sistema está actualmente en producción y gestiona eventos con más de 2.500 usuarios conectados simultáneamente.',
+      desc: 'Diseñé y desarrollé una arquitectura de microservicios con Laravel (backend), React (frontends para usuarios y administración) y Node.js (WebSockets con Socket.IO), optimizada con Cloudflare. Implementé chat y notificaciones en tiempo real para evento, además de una landing page en React con pagos seguros vía Stripe.',
       url: 'https://hookyapp.es',
       image: 'https://cdn.hookyapp.es/hooky/app/shop/dashboard.webp',
       tags: [
@@ -88,7 +88,7 @@ export const data = {
     },
     {
       title: 'Blog personal - Desarrollo web',
-      desc: 'He creado espacio dedicado al desarrollo web, centrado principalmente en el ecosistema de Laravel y PHP. A través de artículos, guías y proyectos, explora también tecnologías modernas como JavaScript, React e Inertia.js. El blog está construido utilizando Laravel, React y TailwindCSS, incorporando la librería de componentes shadcn/ui para ofrecer una experiencia visual limpia y elegante. La base de datos se gestiona con PostgreSQL, asegurando un rendimiento óptimo y escalabilidad.',
+      desc: 'He creado un espacio dedicado al desarrollo web, centrado en Laravel y PHP, pero también con contenido sobre otras tecnologías como JavaScript o React. El blog está construido con Laravel, Inertia, React, TailwindCSS y shadcn/ui, y usa PostgreSQL para como base de datos.',
       url: 'https://blog.frandiez.es', // Aquí puedes poner la URL real
       image: '/img/blog.webp', // Aquí tu imagen representativa
       tags: ['Laravel', 'React', 'Inertia.js', 'PHP', 'JavaScript', 'TailwindCSS', 'shadcn/ui', 'PostgreSQL'],
@@ -98,7 +98,7 @@ export const data = {
   secondary_projects: [
     {
       title: 'ElTioManu',
-      desc: 'El Tío Manu es una plataforma web desarrollada como catálogo en línea para un comercio local. Permite a los usuarios explorar cómodamente los productos ofrecidos. El proyecto se construyó con Laravel y Livewire para crear componentes dinámicos, y se diseñó íntegramente con TailwindCSS.',
+      desc: 'El Tío Manu es una plataforma web desarrollada como catálogo en línea para un comercio local. Permite a los usuarios explorar cómodamente los productos ofrecidos.',
       url: 'https://eltiomanu.es',
       image: '/img/project1.png',
       tags: ['Laravel', 'Livewire', 'JavaScript', 'TailwindCSS', 'MySQL', 'PHP'],
