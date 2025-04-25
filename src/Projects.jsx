@@ -23,7 +23,7 @@ export const Projects = ({ user }) => {
             <div className="flex items-center justify-between">
               <h1 className="block p-0 m-0 text-2xl  dark:text-white font-mono">{item.title}</h1>
               {item.label && (
-                <span className="px-2 py-1 text-sm font-bold text-white bg-indigo-500 rounded-lg rotate-6">
+                <span className="px-2 py-1 text-xs font-bold text-white bg-indigo-500 rounded-lg rotate-6">
                   {item.label}
                 </span>
               )}
