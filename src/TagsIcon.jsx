@@ -53,6 +53,8 @@ export const TagsIcon = ({ iconName, className }) => {
       return <Icon icon="devicon:inertiajs" className={className} />;
     case 'shadcn/ui':
       return <Icon icon="simple-icons:shadcnui" className={className} />;
+    case 'Hono':
+      return <Icon icon="logos:hono" className={className} />;
   }
 };
 

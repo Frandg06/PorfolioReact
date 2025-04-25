@@ -57,3 +57,7 @@
     animation: marquee-vertical var(--duration) infinite linear;
   }
 }
+
+div[data-radix-popper-content-wrapper] {
+  z-index: 9999 !important;
+}

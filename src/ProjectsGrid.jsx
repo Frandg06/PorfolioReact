@@ -12,7 +12,7 @@ export const ProjectsGrid = ({ user }) => {
           imageSrc={item.image ?? null}
           isStatic
           key={`${index}-project-grid`}
-          className="relative p-4 duration-300 border-2 h-fit min-h-44 dark:border-white/30 rounded-2xl group/project2 dark:hover:border-white/70 hover:-translate-y-2 border-gray-200 hover:border-gray-600"
+          className="relative p-4 duration-300 border-2 h-fit min-h-44 z-50 dark:border-white/30 rounded-2xl group/project2 dark:hover:border-white/70 hover:-translate-y-2 border-gray-200 hover:border-gray-600"
         >
           <div className="flex flex-col justify-between h-40 min-h-fit gap-2">
             <h1 className="block p-0 m-0 text-xl font-mono dark:text-white">{item.title}</h1>
