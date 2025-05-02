@@ -99,7 +99,7 @@ export const data = {
     {
       title: 'Fran.Link - Acortador de enlaces',
       label: 'Beta',
-      desc: 'He creado un acortador de URLs usando <span className="text-highlighted">Cloudflare Workers</span> y su sistema de <span className="text-highlighted">KV</span> para el almacenamiento rápido y escalable. En el worker uso <span className="yellow-400">Hono</span> como framework, y puedes elegir tu propio nombre personalizado para el enlace o dejar que se genere automáticamente un hash.',
+      desc: 'He creado un acortador de URLs usando <span className="text-highlighted">Cloudflare Workers</span> y su sistema de base de datos <span className="text-highlighted">D1</span> para el almacenamiento rápido y escalable. En el worker uso <span className="yellow-400">Hono</span> como framework, y puedes elegir tu propio nombre personalizado para el enlace o dejar que se genere automáticamente un hash.',
       url: 'https://app.frandg.link',
       github: 'https://frandg.link/git-link',
       images: [
