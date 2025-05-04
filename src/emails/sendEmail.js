@@ -1,6 +1,6 @@
 export const sendEmail = async (data) => {
   try {
-    await fetch(import.meta.env.VITE_EMAIL_API_URL, {
+    const response = await fetch(import.meta.env.VITE_EMAIL_API_URL, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -8,6 +8,10 @@ export const sendEmail = async (data) => {
       },
       body: JSON.stringify(data),
     });
+
+    if (!response.ok) {
+      throw new Error('Error al enviar el email');
+    }
 
     return {
       status: 'success',
