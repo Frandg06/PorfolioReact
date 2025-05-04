@@ -30,7 +30,7 @@ export const App = () => {
         <ProjectsGrid user={data} />
         <Stack user={data} />
         <Formation user={data} />
-        <Email />
+        {/* <Email /> */}
         <Redes user={data} />
       </main>
     </>
