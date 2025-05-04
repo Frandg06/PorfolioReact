@@ -32,7 +32,7 @@ export const Email = () => {
   return (
     <article className="space-y-4 mt-14">
       <h1 className="flex gap-2 mb-8 text-2xl items-center dark:text-white">
-        Email
+        Contacto
         <Icon icon="solar:inbox-unread-bold-duotone" />
       </h1>
       <form onSubmit={handleSubmit}>
