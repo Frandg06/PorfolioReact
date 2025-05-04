@@ -1,11 +1,23 @@
-import { Resend } from "resend";
+export const sendEmail = async (data) => {
+  try {
+    await fetch(import.meta.env.VITE_EMAIL_API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: import.meta.env.VITE_EMAIL_API_KEY,
+      },
+      body: JSON.stringify(data),
+    });
 
-export const sendEmail = async () => {
-  const resend = new Resend("re_DSKN1Q3x_PhWp2RkEg1mkqThXxxpvJEi1");
-  await resend.emails.send({
-    from: "fdiez86@gmail.com",
-    to: "fdiez86@gmail.com",
-    subject: "hello world",
-    react: "<h1>IAFJOIUDHFsoidf</h1>",
-  });
+    return {
+      status: 'success',
+      message: 'He recibido su mensaje! Muchas gracias por su interés. Te responderé lo antes posible.',
+    };
+    // eslint-disable-next-line
+  } catch (error) {
+    return {
+      status: 'error',
+      message: 'Ha ocurrido un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.',
+    };
+  }
 };
