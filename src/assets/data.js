@@ -102,12 +102,16 @@ export const data = {
       desc: 'He creado un acortador de URLs usando <span className="text-highlighted">Cloudflare Workers</span> y su sistema de base de datos <span className="text-highlighted">D1</span> para el almacenamiento rápido y escalable. En el worker uso <span className="yellow-400">Hono</span> como framework, y puedes elegir tu propio nombre personalizado para el enlace o dejar que se genere automáticamente un hash.',
       url: 'https://app.frandg.link',
       github: 'https://frandg.link/git-link',
-      images: [
-        '/img/fran_link_dark.webp',
-        // '/img/fran_link.webp',
-        // '/img/link_modal.webp'
-      ],
-      tags: ['React', 'Hono', 'Cloudflare', 'JavaScript', 'TailwindCSS', 'shadcn/ui'],
+      images: ['/img/fran_link_dark.webp'],
+      tags: ['React', 'Hono', 'TypeScript', 'Cloudflare', 'JavaScript', 'TailwindCSS', 'shadcn/ui'],
+    },
+    {
+      title: 'Receipt.Ai – División de gastos en grupo',
+      desc: 'Sube una factura, asigna cada producto a tus amigos y reparte los gastos en segundos. Receipt.Ai utiliza la <span className="text-highlighted">API de OpenAI</span> para leer los tickets y está construida con <span className="text-highlighted">React + TypeScript</span> en el frontend. Su backend corre sobre <span className="text-highlighted">Cloudflare Workers</span> con <span className="text-highlighted">Hono</span> y emplea <span className="text-highlighted">R2</span> para almacenar las imágenes procesadas. Ideal para grupos, viajes y eventos.',
+      url: 'https://frandg.link/receiptai',
+      github: 'https://frandg.link/git-receiptai',
+      images: ['/img/receiptai.webp'],
+      tags: ['React', 'TypeScript', 'OpenAI', 'Hono', 'Cloudflare'],
     },
   ],
 
