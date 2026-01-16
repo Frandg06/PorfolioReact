@@ -40,7 +40,7 @@ export const HeroSection = ({ user }) => {
           <a
             className="flex items-center justify-center gap-2 p-2 font-semibold duration-500 bg-indigo-500 rounded-lg text-white/80 font-mono hover:bg-indigo-600 hover:-translate-y-1 text-sm"
             data-tooltip-target="descargar-cv"
-            href="/Francisco_Diez_Gutierrez_CV.pdf"
+            href="/FRANCISCO_DIEZ_GUTIÉRREZ_CV.pdf"
             download
           >
             <Icon
